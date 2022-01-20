@@ -164,5 +164,44 @@ h3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     /*definir numero de columnas */
-    /* prueba de git */
+    column-gap: 2rem;
+}
+
+.servicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicio h3 {
+    font-weight: 400;
+    font-weight: bold;
+}
+
+.servicio p {
+    line-height: 2;
+    text-align: center;
+}
+
+.servicio .iconos {
+    height: 15rem;
+    width: 15rem;
+    background-color: #0096a773;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Se crea clase para formularios */
+
+.formulario {
+    background-color: var(--gris);
+    width: min(60rem, 100%);
+    /*Utiliza el valor mas pequeño **/
+}
+
+.formulario fieldset {
+    border: none;
 }
