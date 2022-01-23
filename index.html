@@ -115,31 +115,37 @@
             <form class="formulario">
                 <fieldset>
                     <legend>Contactanos llenando todos los campos</legend>
-                    <div>
-                        <label>Nombre</label>
-                        <input type="text" placeholder="Tu nombre">
-                    </div>
-                    <div>
-                        <label>Telefono</label>
-                        <input type="tel" placeholder="Tu telefono">
-                    </div>
-                    <div></div>
-                    <label>Correo</label>
-                    <input type="email" placeholder="Tu correo">
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu nombre">
+                        </div>
+                        <div class="campo">
+                            <label>Telefono</label>
+                            <input class="input-text type=" tel " placeholder="Tu telefono ">
+                        </div>
+                        <div class="campo ">
+                            <label>Correo</label>
+                            <input class="input-text type="email" placeholder="Tu correo">
+                        </div>
+
+
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                        <div class="enviar">
+                            <input class="boton" type="submit" value="Enviar">
+                        </div>
                     </div>
 
-                    <div>
-                        <label>Mensaje</label>
-                        <textarea></textarea>
-                        <input type="submit" value="Enviar">
 
-                    </div>
                 </fieldset>
 
             </form>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <p>Todos los derechos reservados. Edison Vera</p>
     </footer>
 
